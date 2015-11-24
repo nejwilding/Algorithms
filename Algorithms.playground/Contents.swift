@@ -23,3 +23,15 @@ func swapTwoMoreValues<T>(a: T, with b: T) -> (T, T) {
     return (b,a)
 }
 swapTwoMoreValues("Value1", with: "Value2")
+
+
+//: Simple Array Sum
+//:
+
+let numberList = [4,2,5,6,1,3]
+
+func sumArray(numbers: [Int]) -> Int {
+    return numbers.reduce(0, combine: +)
+}
+
+sumArray(numberList)
