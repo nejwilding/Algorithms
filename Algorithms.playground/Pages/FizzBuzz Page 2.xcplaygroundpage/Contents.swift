@@ -31,7 +31,7 @@ fizzBuzzLoop()
 //: FizzBuzz Slightly More Functional
 //:
 
-func fizzBuzz(i: Int) -> String {
+func fizzBuzz(_ i: Int) -> String {
     let result = (i % 3, i % 5)
     switch result {
     case(0,0):

@@ -3,5 +3,6 @@
     <pages>
         <page name='Untitled Page'/>
         <page name='FizzBuzz Page 2'/>
+        <page name='Stack'/>
     </pages>
 </playground>
